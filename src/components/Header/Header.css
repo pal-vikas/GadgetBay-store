@@ -62,3 +62,53 @@
     gap: 35px;
     font-size: 20px;
 }
+
+.cart-icon{
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cart-icon :hover{
+    color: blueviolet;
+}
+
+.heart-icon :hover{
+    color: red;
+}
+
+.user-icon :hover{
+    color: blueviolet;
+}
+
+.hanmburgerMenu{
+
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width:450px) {
+    
+    .searchContainer{
+        display: none;
+    }
+
+    .nav-icon{
+        display: none;
+    }
+
+    .hanmburgerMenu{
+
+        display: block;
+        cursor: pointer;
+    }
+
+
+    .header{
+
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

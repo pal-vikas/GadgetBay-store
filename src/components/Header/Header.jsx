@@ -4,6 +4,8 @@ import { FaSearch } from 'react-icons/fa';
 import { FaRegHeart } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 
 
@@ -19,12 +21,13 @@ function Header() {
                     </div>
                    </div>
             <div className="nav-icon">
-                <FaRegHeart />
-                <IoCartOutline />
-                <FaRegUser />
+                <FaRegHeart className='heart-icon' />
+                <IoCartOutline className='cart-icon'/>
+                <FaRegUser className='user-icon' />
+              
 
             </div>
-
+           <GiHamburgerMenu className='hanmburgerMenu'/>  
             </header>
     </>
   )

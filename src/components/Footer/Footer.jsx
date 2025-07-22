@@ -54,7 +54,7 @@ function Footer() {
         <div className="footer-section">
           <h4>Contact Us</h4>
           <p><FaHome /> Mumbai, India</p>
-          <p><FaPhoneAlt /> +91-9172528369</p>
+          <p><FaPhoneAlt  /> +91-9172528369</p>
           <p><FaEnvelope /> gadgetbay.shop@gmail.com</p>
         </div>
       </div>
