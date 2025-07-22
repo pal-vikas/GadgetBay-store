@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5rem 2rem; /* Relative units for padding */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Relative units for shadow */
+    position: sticky;
+    top: 0; /* Make it stick to the top */
+    z-index: 1000; /* Ensure it stays above other elements */
+    background-color: white;
+    color: #1e1e1e;
+}
+
+.companyName{
+    margin: 0px;
+    font-size: larger;
+    color: #1e1e1e;
+}
+
+.logoLink {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+
+.searchInputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    min-width: 30%;
+}
+
+.searchInputContainer input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    font-size: clamp(14px, 16px, 18px);
+    background-color: #f9f9f9;
+    width: 300px;
+}
+
+.searchInputContainer .searchIcon {
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: rgb(36, 34, 34);
+    align-self: center;
+}
+
+.searchInputContainer {
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.nav-icon{
+
+    display: flex ;
+    gap: 35px;
+    font-size: 20px;
+}
