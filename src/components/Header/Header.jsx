@@ -5,6 +5,8 @@ import { FaRegHeart } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
+
 
 function Header() {
   return (
@@ -23,6 +25,15 @@ function Header() {
           <FaRegUser className='user-icon' />
         </div>
         <GiHamburgerMenu className='hanmburgerMenu' />
+
+        <SignedOut>
+        <SignInButton />
+      </SignedOut>
+      
+      <SignedIn>
+        <UserButton  />
+      </SignedIn>
+        
       </header>
     </>
   )
