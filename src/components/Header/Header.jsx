@@ -6,9 +6,6 @@ import { IoCartOutline } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-
-
-
 function Header() {
   return (
     <>
