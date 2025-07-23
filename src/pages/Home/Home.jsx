@@ -1,12 +1,12 @@
 import React from 'react'
-import '../Home.css'
-import Banner from '../../components/Banner/Banner'
+import './Home.css'
+import ProductCategory from '../ProductCategory/ProductCategory'
 
 function Home() {
   return (
     <>
       <div className="">
-        
+        <ProductCategory/>
       </div>
     </>
   )
