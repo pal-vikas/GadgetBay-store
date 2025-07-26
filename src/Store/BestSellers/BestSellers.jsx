@@ -60,7 +60,7 @@ const newArrivals = [
     brand: "Sennheiser",
     price: 349,
     rating: 4.7,
-    image: "https://sdmntprukwest.oaiusercontent.com/files/00000000-a508-6243-90a9-5269e073b250/raw?se=2025-07-26T15%3A07%3A07Z&sp=r&sv=2024-08-04&sr=b&scid=5a809be3-b6c1-5dcd-b4bb-39bf53bf490b&skoid=f28c0102-4d9d-4950-baf0-4a8e5f6cf9d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-26T14%3A00%3A23Z&ske=2025-07-27T14%3A00%3A23Z&sks=b&skv=2024-08-04&sig=%2BWnsKzqvZSZZ1xk1jBJM%2Bpzgt24emmUW8fOTYo4%2Bvi8%3D",
+    image: "https://sdmntprukwest.oaiusercontent.com/files/00000000-a508-6243-90a9-5269e073b250/raw?se=2025-07-26T18%3A48%3A52Z&sp=r&sv=2024-08-04&sr=b&scid=e12b94c8-6d6b-5719-9a4d-dd3eee612304&skoid=789f404f-91a9-4b2f-932c-c44965c11d82&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-25T21%3A33%3A07Z&ske=2025-07-26T21%3A33%3A07Z&sks=b&skv=2024-08-04&sig=NaVwsBt%2BufwWKkxFChSGjk%2BEEfUkRR5VohqY4z73KZc%3D",
     description: "Premium sound, lightweight design, and 60-hour battery life."
   },
   {
@@ -100,7 +100,7 @@ const newArrivals = [
     brand: "Apple",
     price: 1399,
     rating: 4.8,
-    image: "https://sdmntprukwest.oaiusercontent.com/files/00000000-36bc-6243-8730-90c884e7eb2e/raw?se=2025-07-26T15%3A02%3A56Z&sp=r&sv=2024-08-04&sr=b&scid=fe3048f6-f21e-5ecd-ba39-0f21b777a3b2&skoid=f28c0102-4d9d-4950-baf0-4a8e5f6cf9d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-25T20%3A40%3A36Z&ske=2025-07-26T20%3A40%3A36Z&sks=b&skv=2024-08-04&sig=h4Mhl8q1f28jMpQ/jmxofZ5QhAEepzVDdGwsqd1hrDM%3D",
+    image: "https://sdmntprukwest.oaiusercontent.com/files/00000000-36bc-6243-8730-90c884e7eb2e/raw?se=2025-07-26T18%3A48%3A52Z&sp=r&sv=2024-08-04&sr=b&scid=3bedce9c-9fbd-52ac-9593-f81617fa427f&skoid=789f404f-91a9-4b2f-932c-c44965c11d82&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-25T21%3A27%3A00Z&ske=2025-07-26T21%3A27%3A00Z&sks=b&skv=2024-08-04&sig=bp7HTHx1FeMvjrgrfjZqMYaeaxZQAelXGHl/llzyoDk%3D",
     description: "Powerful tablet with M3 chip and Liquid Retina XDR display."
   }
 ];

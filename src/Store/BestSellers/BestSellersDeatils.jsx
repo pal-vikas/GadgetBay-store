@@ -1,13 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function BestSellersDeatils({name, img, price}) {
   return (
     <>
-            <div className="bestSeller-box">
-                <img className='best-img' src={img} alt="img" />
-                <p className='best-name'>{name}</p>
-                <p className='best-price'> ₹{Math.floor(price*85)}</p>
-            </div>
+         
+        <div className="bestSeller-box">
+          <img className='best-img' src={img} alt="img" />
+          <p className='best-name'>{name}</p>
+          <p className='best-price'> ₹{Math.floor(price * 85)}</p>
+        </div>
+       
     </>
   )
 }
