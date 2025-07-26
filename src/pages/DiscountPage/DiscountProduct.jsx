@@ -1,6 +1,8 @@
 import React from 'react'
 import './DiscountProduct.css'
 import DiscountPage from './DiscountPage'
+import arrow from '../../assets/arrow.svg'
+
 
 const products = [
   {
@@ -52,7 +54,7 @@ function DiscountProduct() {
                       <h2 className=''>Discount upto 50%</h2>
                       <div className="view-icon">
                           <p>View All</p>
-                          <img className='arrow-img' src="/src/assets/arrow.svg" alt="" />
+                          <img className='arrow-img' src={arrow} alt="" />
                       </div>
                   </div>
               </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProductCategory.css'
+import arrow from '../../assets/arrow.svg'
 
 
 function ProductCategory() {
@@ -11,7 +12,7 @@ function ProductCategory() {
                       <h2 className=''>Browse By Category</h2>
                       <div className="view-icon">
                           <p>View All</p>
-                          <img className='arrow-img' src="/src/assets/arrow.svg" alt="" />
+                          <img className='arrow-img' src={arrow} alt="ads" />
                       </div>
                   </div>
               </div>

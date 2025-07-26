@@ -3,7 +3,7 @@ import React from 'react'
 function FeaturedProducts() {
   return (
     <div>
-                <h1>FeaturedProducts</h1>
+                <h1>Featured Products coming soon!</h1>
     </div>
   )
 }

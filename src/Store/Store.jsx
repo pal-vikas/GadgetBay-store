@@ -14,7 +14,7 @@ function Store() {
       case "featured":
         return <FeaturedProducts />;
       default:
-        return <NewArrivals/>;
+        return <BestSellers />;
     }
   };
 
