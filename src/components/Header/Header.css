@@ -63,22 +63,34 @@
     font-size: 20px;
 }
 
-.cart-icon{
+.phone-icon{
 
     font-size: 24px;
     font-weight: bold;
 }
 
-.cart-icon :hover{
-    color: blueviolet;
+.laptop-icon{
+
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.heart-icon :hover{
+.computer-icon{
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.phone-icon :hover{
+   color: red;
+}
+
+.laptop-icon :hover{
     color: red;
 }
 
-.user-icon :hover{
-    color: blueviolet;
+.computer-icon :hover{
+    color: red;
 }
 
 .hanmburgerMenu{
@@ -89,7 +101,7 @@
 
 
 
-@media (max-width:450px) {
+@media (max-width:600px) {
     
     .searchContainer{
         display: none;
@@ -103,14 +115,21 @@
 
         display: block;
         cursor: pointer;
+        font-size: 25px;
     }
 
 
     .header{
-
         padding: 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+       gap: 10px;
     }
+
+    .logoLink{
+        font-size: 20px;
+        color: rgb(84, 83, 83);
+    }
+
 }
