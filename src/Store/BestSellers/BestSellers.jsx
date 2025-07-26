@@ -1,6 +1,7 @@
 import React from 'react'
 import BestSellersDeatils from "./BestSellersDeatils/"
-import "./Bestsellers.css"
+import './BestSellers.css';
+
 const newArrivals = [
   {
     id: 1,
