@@ -5,7 +5,7 @@ import Banner from '../../Banner/Banner'
 import Carousel from '../../Carousel/Carousel'
 import DiscountProduct from '../DiscountPage/DiscountProduct'
 import { Route, Routes } from 'react-router-dom'
-import Store from '../../Store/Store'
+import Store from "../../Store/Store"
 
 function Home() {
   return (
@@ -15,7 +15,6 @@ function Home() {
         <ProductCategory/>
         <Store/>
         <DiscountProduct/>
-
         <Banner/>
       </div>
     </>
