@@ -3,6 +3,7 @@ import './Home.css'
 import ProductCategory from '../ProductCategory/ProductCategory'
 import Banner from '../../Banner/Banner'
 import Carousel from '../../Carousel/Carousel'
+import DiscountProduct from '../DiscountPage/DiscountProduct'
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <div className="">
         <Carousel/>
         <ProductCategory/>
+        <DiscountProduct/>
         <Banner/>
       </div>
     </>
