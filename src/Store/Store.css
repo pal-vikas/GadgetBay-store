@@ -1,0 +1,38 @@
+.product-navbar-container {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.tabs {
+  max-width: 1000px;
+  display: flex;
+  margin: auto;
+  justify-content: start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #d5d5d5;
+}
+
+.tab.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.tab-content {
+  padding: 20px;
+  /* border-top: 2px solid #4caf50; */
+}
