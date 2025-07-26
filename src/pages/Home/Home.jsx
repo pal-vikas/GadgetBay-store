@@ -5,8 +5,7 @@ import Banner from '../../Banner/Banner'
 import Carousel from '../../Carousel/Carousel'
 import DiscountProduct from '../DiscountPage/DiscountProduct'
 import { Route, Routes } from 'react-router-dom'
-import ProductDetails from '../DiscountPage/ProductDetails'
-import Store from '../../Store/store'
+import Store from '../../Store/Store'
 
 function Home() {
   return (
